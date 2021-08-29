@@ -77,7 +77,7 @@ let loadSong=(song_idx)=>
     console.log(song_idx);
     t.textContent=song_idx.title;
     a.textContent=song_idx.artist;
-    music.src="music/" +song_idx.name +".mp3";
+    music.src="Music/" +song_idx.name +".mp3";
     img.src="images/"  +song_idx.name +".jpg";
 }
 
